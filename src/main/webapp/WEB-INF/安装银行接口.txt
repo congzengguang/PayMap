@@ -1,0 +1,5 @@
+mvn install:install-file -DgroupId=com.unionpay -DartifactId=unionpay-acp-sdk -Dversion=1.0.0 -Dpackaging=jar -Dfile=unionpay-acp-sdk-1.0.0.jar
+
+mvn install:install-file -DgroupId=com.psbc -DartifactId=psbc-merchant-toolkit -Dversion=1.0.1 -Dpackaging=jar -Dfile=psbc-merchant-toolkit-1.0.1.jar
+
+mvn install:install-file -DgroupId=com.ceb -DartifactId=ceb-merchant -Dversion=0.01 -Dpackaging=jar -Dfile=ceb-merchant-0.01.jar
